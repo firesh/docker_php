@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:7-apache
 
 RUN apt-get update -y && \
 apt-get install -y libfreetype6-dev libmcrypt-dev libjpeg-dev libpng-dev && \
